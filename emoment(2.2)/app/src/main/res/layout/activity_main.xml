@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <it.neokree.materialtabs.MaterialTabHost
+        android:id="@+id/tabHost"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+        </it.neokree.materialtabs.MaterialTabHost>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/pager"
+        android:layout_below="@+id/tabHost"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
